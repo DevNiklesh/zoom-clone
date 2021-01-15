@@ -12,6 +12,7 @@ Git clone the application and run,
 
 	# To install all the dependencies
 	- npm install
+	
 	# To start the app
 	- node server.js
 
@@ -20,10 +21,13 @@ Open **http://localhost:3030/** in your browser & allow all the permissions to a
 ## To host in Heroku
 	# Install Heroku globally in your system
 	- npm install -g heroku
+	
 	# To start a heroku instance
 	- heroku create
+	
 	# To push code with git
-	- git push master heroku
+	- git push heroku master
+	
 	# also run this
 	- heroku ps:scale web 1
 	- heroku open
